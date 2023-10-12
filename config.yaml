@@ -5,23 +5,38 @@ environment:
   message-token: c7ptbA7De0nvnvagiGEgbC:APA91bE1AABlRKEjUB_HCB_yVKmocYxOgym2ebWlpP6hCjMYpTcgiTMiKTu7KZgTMLIrv55SieM0fLqWBIiMLULrwTDISoszte9zMAVaMfQqt9cxAHaxJ47moYT628v9JMBQftaLVxKm
 
 schedules:
-  - weekday: seg,ter,qua,qui,sex
-    restaurant: 2
-    vegetarian: false
-    coffee: false
-    lunch: true
-    dinner: false
-
-  - weekday: Thu
+  - weekday: seg
     restaurant: 2
     vegetarian: false
     coffee: true
     lunch: true
     dinner: false
 
-  - weekday: Fri
+  - weekday: ter
     restaurant: 2
     vegetarian: false
     coffee: false
     lunch: true
     dinner: false
+
+  - weekday: qua
+    restaurant: 2
+    vegetarian: false
+    coffee: true
+    lunch: true
+    dinner: false
+
+   - weekday: qui
+    restaurant: 2
+    vegetarian: false
+    coffee: false
+    lunch: true
+    dinner: false
+
+ - weekday: sex
+    restaurant: 2
+    vegetarian: false
+    coffee: true
+    lunch: true
+    dinner: false
+
