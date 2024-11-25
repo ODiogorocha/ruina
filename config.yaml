@@ -6,37 +6,37 @@ environment:
 
 schedules:
   - weekday: seg
-    restaurant: 2
+    restaurant: 1
     vegetarian: false
     coffee: true
-    lunch: true
-    dinner: false
+    lunch: false
+    dinner: true
 
   - weekday: ter
-    restaurant: 2
+    restaurant: 1
     vegetarian: false
-    coffee: false
-    lunch: true
-    dinner: false
+    coffee: true
+    lunch: false
+    dinner: true
 
   - weekday: qua
-    restaurant: 2
+    restaurant: 1
     vegetarian: false
     coffee: true
-    lunch: true
-    dinner: false
+    lunch: false
+    dinner: true
 
    - weekday: qui
-    restaurant: 2
-    vegetarian: false
-    coffee: false
-    lunch: true
-    dinner: false
-
- - weekday: sex
-    restaurant: 2
+    restaurant: 1
     vegetarian: false
     coffee: true
-    lunch: true
+    lunch: false
+    dinner: true
+
+ - weekday: sex
+    restaurant: 1
+    vegetarian: false
+    coffee: true
+    lunch: false
     dinner: false
 
